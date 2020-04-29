@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Storage ;
+using Microsoft.EntityFrameworkCore.Storage;
 using SOMData;
 
 namespace SOMData.Migrations
@@ -34,7 +34,7 @@ namespace SOMData.Migrations
 
                     b.Property<string>("CompileTo");
 
-                    b.Property<string>("ReplaceLines");
+                    b.Property<string>("ParseLines");
 
                     b.Property<string>("ReplaceTerms");
 

@@ -20,7 +20,7 @@ namespace SOMData.Migrations
                     CompileTo = table.Column<string>(nullable: true),
                     WrapExpression = table.Column<string>(nullable: true),
                     ReplaceTerms = table.Column<string>(nullable: true),
-                    ReplaceLines = table.Column<string>(nullable: true)
+                    ParseLines = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

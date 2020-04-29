@@ -8,7 +8,7 @@
         string CompilationTitle { get; set; } 
         string CompileFrom { get; set; }
         string CompileTo { get; set; }
-        string ReplaceLines { get; set; }
+        string ParseLines { get; set; }
         string ReplaceTerms { get; set; }
         string WrapExpression { get; set; }
     }

@@ -16,6 +16,6 @@ namespace SOMData.Models
         public string CompileTo { get; set; }
         public string WrapExpression { get; set; }
         public string ReplaceTerms { get; set; }
-        public string ReplaceLines { get; set; }
+        public string ParseLines { get; set; }
     }
 }

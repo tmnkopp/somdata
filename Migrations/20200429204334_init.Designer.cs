@@ -3,13 +3,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using Microsoft.EntityFrameworkCore.Storage ;
+using Microsoft.EntityFrameworkCore.Storage;
 using SOMData;
 
 namespace SOMData.Migrations
 {
     [DbContext(typeof(SOMDbContext))]
-    [Migration("20200424205421_init")]
+    [Migration("20200429204334_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -36,7 +36,7 @@ namespace SOMData.Migrations
 
                     b.Property<string>("CompileTo");
 
-                    b.Property<string>("ReplaceLines");
+                    b.Property<string>("ParseLines");
 
                     b.Property<string>("ReplaceTerms");
 
