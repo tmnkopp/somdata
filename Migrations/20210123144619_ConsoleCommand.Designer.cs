@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
- 
+using Microsoft.EntityFrameworkCore.Migrations;
+
 using SOMData;
 
 namespace SOMData.Migrations
 {
     [DbContext(typeof(SOMDbContext))]
-    partial class SOMDbContextModelSnapshot : ModelSnapshot
+    [Migration("20210123144619_ConsoleCommand")]
+    partial class ConsoleCommand
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

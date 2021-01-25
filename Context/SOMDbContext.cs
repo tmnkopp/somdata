@@ -15,8 +15,8 @@ namespace SOMData
         {
 
         }
-        public virtual  DbSet<CompilationWorkspace> CompilationWorkspaces { get; set; }
-
+        public virtual DbSet<CompilationWorkspace> CompilationWorkspaces { get; set; }
+        public virtual DbSet<ConsoleCommand> ConsoleCommands { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder); 
