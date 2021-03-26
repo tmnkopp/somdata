@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using SOM.Models;
+﻿using Microsoft.EntityFrameworkCore; 
 using SOMData.Models;
 using System;
 using System.Collections.Generic;

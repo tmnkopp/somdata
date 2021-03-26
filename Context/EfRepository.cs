@@ -4,7 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Web;
 using Microsoft.EntityFrameworkCore;
-using SOM.Data;
+ 
 
 namespace SOMData
 { 
