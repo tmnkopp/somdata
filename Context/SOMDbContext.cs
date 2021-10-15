@@ -10,6 +10,7 @@ namespace SOMData
 {
     public class SOMDbContext: DbContext  
     {
+
         public SOMDbContext( DbContextOptions options) :base(options)
         {
 
